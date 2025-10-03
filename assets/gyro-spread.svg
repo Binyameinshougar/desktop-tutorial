@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Gyro spread</title>
+  <desc id="desc">Illustration of gyro ingredients laid out on a table.</desc>
+  <defs>
+    <linearGradient id="table" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3d9b1" />
+      <stop offset="100%" stop-color="#e5b080" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#table)" />
+  <circle cx="150" cy="120" r="70" fill="#f8f4ea" />
+  <circle cx="150" cy="120" r="50" fill="#d96846" opacity="0.7" />
+  <ellipse cx="330" cy="230" rx="140" ry="80" fill="#f9f0e4" />
+  <ellipse cx="330" cy="230" rx="110" ry="58" fill="#f2c078" />
+  <ellipse cx="490" cy="120" rx="90" ry="70" fill="#fff3d9" />
+  <ellipse cx="490" cy="120" rx="64" ry="46" fill="#a3d977" />
+  <circle cx="240" cy="90" r="28" fill="#c94f23" />
+  <circle cx="240" cy="90" r="18" fill="#fce6d4" />
+  <circle cx="420" cy="80" r="18" fill="#ee7650" />
+  <rect x="100" y="240" width="120" height="60" rx="20" fill="#8bc6ec" />
+  <rect x="420" y="260" width="160" height="48" rx="18" fill="#f4a259" />
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Rotating gyro illustration</title>
+  <defs>
+    <linearGradient id="gyroGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b85d26" />
+      <stop offset="100%" stop-color="#662d0d" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="none" />
+  <g transform="translate(100 100)">
+    <ellipse rx="48" ry="68" fill="url(#gyroGradient)" />
+    <ellipse rx="40" ry="12" cy="-70" fill="#f2d0a7" />
+    <rect x="-6" y="-90" width="12" height="50" fill="#d4a574" />
+    <ellipse rx="12" ry="5" cy="-90" fill="#a36c3c" />
+    <ellipse rx="26" ry="8" cy="70" fill="#a23d13" opacity="0.8" />
+  </g>
+</svg>
