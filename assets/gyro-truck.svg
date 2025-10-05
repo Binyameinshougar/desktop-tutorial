@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Gyro King food truck illustration</title>
+  <desc id="desc">Bright illustration of a food truck with Gyro King branding.</desc>
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9966" />
+      <stop offset="100%" stop-color="#ff5e62" />
+    </linearGradient>
+    <linearGradient id="windowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9ad0ff" />
+      <stop offset="100%" stop-color="#4f9dff" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="#fef6ef" />
+  <rect x="60" y="110" width="420" height="160" rx="20" fill="url(#bodyGradient)" />
+  <rect x="420" y="150" width="140" height="120" rx="18" fill="#f9c34f" />
+  <rect x="420" y="150" width="140" height="36" rx="18" fill="#f7b733" />
+  <circle cx="180" cy="290" r="44" fill="#2d2d2d" />
+  <circle cx="180" cy="290" r="20" fill="#f1f1f1" />
+  <circle cx="420" cy="290" r="44" fill="#2d2d2d" />
+  <circle cx="420" cy="290" r="20" fill="#f1f1f1" />
+  <rect x="120" y="140" width="160" height="80" rx="14" fill="url(#windowGradient)" />
+  <rect x="300" y="140" width="80" height="80" rx="12" fill="#ffe7d5" />
+  <rect x="308" y="150" width="64" height="18" rx="9" fill="#ff7854" />
+  <text x="340" y="196" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="20" font-weight="700" fill="#c04b2a">Menu</text>
+  <text x="270" y="240" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="36" font-weight="700" fill="#fff">GYRO KING</text>
+  <rect x="430" y="210" width="120" height="48" rx="12" fill="#fff" opacity="0.75" />
+  <text x="490" y="242" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="18" font-weight="600" fill="#ff5e62">Order Here</text>
+  <path d="M60 270h-30c-8 0-10-14-2-16l32-8z" fill="#ff5e62" />
+  <path d="M60 190h-20c-8 0-10-14-2-16l22-6z" fill="#ff5e62" />
+</svg>
