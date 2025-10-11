@@ -1,0 +1,25 @@
+# Logo Placeholder
+
+This is a placeholder for the Weiße Elfen logo.
+
+Please replace this with the actual logo from your business card.
+
+Recommended specifications:
+- Format: SVG (preferred) or high-resolution PNG
+- Transparent background
+- Width: 200-300px (SVG will scale automatically)
+- Height: 60-80px
+- Colors: Should incorporate brand colors (#9B2743, #F9E4E8)
+
+The logo should be uploaded to WordPress via:
+Appearance → Customize → Site Identity → Logo
+
+For best results:
+1. Upload SVG version for crisp scaling
+2. Upload PNG version (2x resolution) as fallback
+3. Set appropriate alt text: "Weiße Elfen Home Care Logo"
+
+The logo will appear in:
+- Header (top left)
+- Footer
+- Theme customizer preview

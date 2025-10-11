@@ -1,0 +1,23 @@
+# Weiße Elfen - Translation Template (POT)
+# This is a placeholder for the translation template file
+# 
+# To generate the actual .pot file, use one of these methods:
+#
+# 1. WP-CLI (if installed):
+#    wp i18n make-pot /path/to/weise-elfen /path/to/weise-elfen/languages/weise-elfen.pot
+#
+# 2. Poedit:
+#    - Open Poedit
+#    - Create new translation from sources
+#    - Select the theme directory
+#    - Save as weise-elfen.pot
+#
+# 3. Loco Translate Plugin:
+#    - Install Loco Translate in WordPress
+#    - Go to Loco Translate → Themes
+#    - Select Weiße Elfen theme
+#    - Click "New Language"
+#    - Generate template
+#
+# Text Domain: weise-elfen
+# Domain Path: /languages

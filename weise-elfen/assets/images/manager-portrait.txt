@@ -1,0 +1,19 @@
+# Manager Portrait Placeholder
+
+This is a placeholder for the manager's portrait photo.
+
+Please replace this file with the actual portrait photo of:
+**Surag Bosch Shogar, Managing Director**
+
+Recommended specifications:
+- Format: JPG or PNG
+- Size: 800x600 pixels (or larger, maintaining 4:3 aspect ratio)
+- Quality: High resolution for professional appearance
+- Style: Professional headshot with warm, approachable expression
+- Background: Soft, neutral, or slightly blurred
+
+The image should be uploaded to: `/wp-content/themes/weise-elfen/assets/images/manager-portrait.jpg`
+
+For demo purposes, you can use this image on:
+- Homepage hero section (right side)
+- About page (featured manager section)

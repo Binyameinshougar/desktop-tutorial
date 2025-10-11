@@ -1,0 +1,209 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#9B2743",
+          "name": "Primary / Accent"
+        },
+        {
+          "slug": "hover-dark-accent",
+          "color": "#A63C54",
+          "name": "Hover / Dark Accent"
+        },
+        {
+          "slug": "soft-background",
+          "color": "#F9E4E8",
+          "name": "Soft Background"
+        },
+        {
+          "slug": "base-background",
+          "color": "#FFFFFF",
+          "name": "Base Background"
+        },
+        {
+          "slug": "body-text",
+          "color": "#222222",
+          "name": "Body Text"
+        },
+        {
+          "slug": "muted-text",
+          "color": "#666666",
+          "name": "Muted Text"
+        }
+      ],
+      "custom": true,
+      "customGradient": true,
+      "duotone": [],
+      "gradients": [
+        {
+          "slug": "hero-gradient",
+          "gradient": "linear-gradient(135deg, #F9E4E8 0%, #FFFFFF 100%)",
+          "name": "Hero Gradient"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'Poppins', sans-serif",
+          "slug": "poppins",
+          "name": "Poppins"
+        },
+        {
+          "fontFamily": "'Lato', sans-serif",
+          "slug": "lato",
+          "name": "Lato"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "0.875rem",
+          "name": "Small"
+        },
+        {
+          "slug": "normal",
+          "size": "1rem",
+          "name": "Normal"
+        },
+        {
+          "slug": "medium",
+          "size": "1.125rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "1.5rem",
+          "name": "Large"
+        },
+        {
+          "slug": "x-large",
+          "size": "2rem",
+          "name": "Extra Large"
+        },
+        {
+          "slug": "xx-large",
+          "size": "3rem",
+          "name": "XX Large"
+        }
+      ],
+      "fontWeight": true,
+      "lineHeight": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "units": ["px", "em", "rem", "vh", "vw", "%"]
+    },
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#FFFFFF",
+      "text": "#222222"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--lato)",
+      "fontSize": "1rem",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--poppins)",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        },
+        "color": {
+          "text": "#9B2743"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "clamp(2rem, 5vw, 3rem)",
+          "fontWeight": "800"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "clamp(1.75rem, 4vw, 2.5rem)",
+          "fontWeight": "700"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "clamp(1.5rem, 3vw, 2rem)"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "#9B2743"
+        },
+        ":hover": {
+          "color": {
+            "text": "#A63C54"
+          }
+        }
+      },
+      "button": {
+        "color": {
+          "background": "#9B2743",
+          "text": "#FFFFFF"
+        },
+        ":hover": {
+          "color": {
+            "background": "#A63C54"
+          }
+        },
+        "border": {
+          "radius": "15px"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--poppins)",
+          "fontWeight": "600"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "page-services",
+      "title": "Services Template",
+      "postTypes": ["page"]
+    },
+    {
+      "name": "page-contact",
+      "title": "Contact Template",
+      "postTypes": ["page"]
+    },
+    {
+      "name": "page-about",
+      "title": "About Template",
+      "postTypes": ["page"]
+    },
+    {
+      "name": "page-careers",
+      "title": "Careers Template",
+      "postTypes": ["page"]
+    }
+  ]
+}
